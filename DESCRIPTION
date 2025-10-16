@@ -1,11 +1,12 @@
 Package: bmi
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Basic Model Interface for R
+Type: Package
+Version: 0.1.0
+Date: 2025-10-16
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Mark", "Piper", , "mark.piper@colorado.edu", role = c("aut", "cre"))
+Description: Provides R mappings for the Basic Model Interface (BMI).
+License: MIT + file LICENSE
 Encoding: UTF-8
 Depends: R (>= 3.5.0), R6
 Roxygen: list(markdown = TRUE)
