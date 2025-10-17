@@ -1,3 +1,12 @@
-test_that("multiplication works", {
-  expect_equal(2 * 2, 4)
+MockBmi <- R6Class(
+  inherit = Bmi,
+  public = list(
+    get_component_name = function() return("mock")
+  )
+)
+
+test_that("get_component_name", {
+  model = MockBmi$new()
+  result = model$get_component_name()
+  expect_equal(result, "mock")
 })
