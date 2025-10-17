@@ -4,15 +4,15 @@
 \alias{Bmi}
 \title{Bmi
 Abstract class defining the Basic Model Interface (BMI) in R.
-Documentation on each function can be found at https://bmi.csdms.io/.}
+Documentation on each function can be found at \url{https://bmi.csdms.io/}.}
 \description{
 Bmi
 Abstract class defining the Basic Model Interface (BMI) in R.
-Documentation on each function can be found at https://bmi.csdms.io/.
+Documentation on each function can be found at \url{https://bmi.csdms.io/}.
 
 Bmi
 Abstract class defining the Basic Model Interface (BMI) in R.
-Documentation on each function can be found at https://bmi.csdms.io/.
+Documentation on each function can be found at \url{https://bmi.csdms.io/}.
 }
 \section{Methods}{
 \subsection{Public methods}{

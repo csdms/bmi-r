@@ -11,7 +11,7 @@
 #
 #' @title Bmi
 #' Abstract class defining the Basic Model Interface (BMI) in R.
-#' Documentation on each function can be found at https://bmi.csdms.io/.
+#' Documentation on each function can be found at \url{https://bmi.csdms.io/}.
 #' @export
 #' @import R6
 Bmi <- R6Class("Bmi",
