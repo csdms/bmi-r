@@ -5,7 +5,7 @@ README.md is generated from README.Rmd using `devtools::build_readme()`
 
 <!-- badges: start -->
 
-[![R-CMD-check](https://github.com/mdpiper/bmi-r-alternative-2/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/mdpiper/bmi-r-alternative-2/actions/workflows/R-CMD-check.yaml)
+[![R-CMD-check](https://github.com/csdms/bmi-r/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/csdms/bmi-r/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 # bmi-r
@@ -18,7 +18,7 @@ Install the development version of the BMI R mappings from GitHub:
 
 ``` r
 # install.packages("remotes")
-remotes::install_github("mdpiper/bmi-r-alternative-2")
+remotes::install_github("csdms/bmi-r")
 ```
 
 If you’ve already cloned the repository locally, you can install the
