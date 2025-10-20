@@ -3,6 +3,11 @@
 README.md is generated from README.Rmd using `devtools::build_readme()`
 -->
 
+<!-- badges: start -->
+
+[![R-CMD-check](https://github.com/mdpiper/bmi-r-alternative-2/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/mdpiper/bmi-r-alternative-2/actions/workflows/R-CMD-check.yaml)
+<!-- badges: end -->
+
 # bmi-r
 
 R mappings for the CSDMS [Basic Model Interface](https://bmi.csdms.io).

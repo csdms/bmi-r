@@ -15,6 +15,10 @@ knitr::opts_chunk$set(
 )
 ```
 
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/mdpiper/bmi-r-alternative-2/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/mdpiper/bmi-r-alternative-2/actions/workflows/R-CMD-check.yaml)
+<!-- badges: end -->
+
 # bmi-r
 
 R mappings for the CSDMS [Basic Model Interface](https://bmi.csdms.io).
