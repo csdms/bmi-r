@@ -1,6 +1,6 @@
 # MIT License
 
-Copyright (c) 2025 bmi authors
+Copyright (c) 2025 Community Surface Dynamics Modeling System (CSDMS)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
