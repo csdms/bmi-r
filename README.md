@@ -14,14 +14,14 @@ R mappings for the CSDMS [Basic Model Interface](https://bmi.csdms.io).
 
 ## Installation
 
-From R, get the development version of the BMI R mappings from GitHub:
+Install the development version of the BMI R mappings from GitHub:
 
 ``` r
 # install.packages("remotes")
 remotes::install_github("mdpiper/bmi-r-alternative-2")
 ```
 
-If you’ve already cloned the repository from GitHub, you can install the
+If you’ve already cloned the repository locally, you can install the
 mappings from R with `remotes::install_local()`.
 
 Load the mappings into an R session with:
@@ -30,7 +30,7 @@ Load the mappings into an R session with:
 library(bmi)
 ```
 
-Check that the library is loaded by displaying its attributes:
+Check that the library is loaded by displaying the `Bmi` R6 class:
 
 ``` r
 Bmi
@@ -40,9 +40,9 @@ Bmi
 
 We recommend installing R packages into a virtual environment. At CSDMS,
 we use [Miniforge](https://github.com/conda-forge/miniforge) to set up
-virtual environments with the conda package manager.
+virtual environments with the `conda` package manager.
 
-Use conda to create an environment called “R” with a set of packages
+Use `conda` to create an environment called “R” with a set of packages
 that are useful for developing and running R code:
 
 ``` bash
@@ -61,7 +61,7 @@ A complete sample implementation is given in the
 
 The original form of the BMI R mappings were created by Stefan Verhoeven
 at the Netherlands eScience Center. See his version at
-<https://github.com/eWaterCycle/bmi-r>. This version of the BMI R
+<https://github.com/eWaterCycle/bmi-r>. The CSDMS version of the BMI R
 mappings grew out of his work.
 
 This work is supported by the U.S. National Science Foundation under
