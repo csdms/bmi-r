@@ -1,4 +1,4 @@
-Package: bmi
+Package: bmir
 Title: Basic Model Interface for R
 Type: Package
 Version: 0.1.0
