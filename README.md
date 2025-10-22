@@ -27,7 +27,7 @@ mappings from R with `remotes::install_local()`.
 Load the mappings into an R session with:
 
 ``` r
-library(bmi)
+library(bmir)
 ```
 
 Check that the library is loaded by displaying the `Bmi` R6 class:
