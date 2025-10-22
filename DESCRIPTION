@@ -3,8 +3,10 @@ Title: Basic Model Interface for R
 Type: Package
 Version: 0.1.0
 Date: 2025-10-16
-Authors@R: 
-    person("Mark", "Piper", , "mark.piper@colorado.edu", role = c("aut", "cre"))
+Authors@R: c(
+    person("Mark", "Piper", , "mark.piper@colorado.edu", role = c("aut", "cre")),
+    person("Stefan", "Verhoeven", , "s.verhoeven@esciencecenter.nl", role = "aut")
+    person("Community Surface Dynamics Modeling System", role = "cph"))
 Description: Provides R mappings for the Basic Model Interface (BMI).
 License: MIT + file LICENSE
 Encoding: UTF-8
