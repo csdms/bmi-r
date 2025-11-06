@@ -63,8 +63,8 @@ The original form of the BMI R mappings were created by Stefan Verhoeven
 at the Netherlands eScience Center. See his version at
 <https://github.com/eWaterCycle/bmi-r>. The CSDMS version of the BMI R
 mappings grew out of his work.
-+Bart Schilperoort, also at the Netherlands eScience Center,
-+provided valuable feedback in developing this package.
+Bart Schilperoort, also at the Netherlands eScience Center,
+provided valuable feedback in developing this package.
 
 This work is supported by the U.S. National Science Foundation under
 Award
