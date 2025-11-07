@@ -5,6 +5,7 @@ README.md is generated from README.Rmd using `devtools::build_readme()`
 
 <!-- badges: start -->
 
+[![DOI](https://zenodo.org/badge/1077889244.svg)](https://doi.org/10.5281/zenodo.17555391)
 [![R-CMD-check](https://github.com/csdms/bmi-r/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/csdms/bmi-r/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
@@ -62,9 +63,9 @@ A complete sample implementation is given in the
 The original form of the BMI R mappings were created by Stefan Verhoeven
 at the Netherlands eScience Center. See his version at
 <https://github.com/eWaterCycle/bmi-r>. The CSDMS version of the BMI R
-mappings grew out of his work.
-Bart Schilperoort, also at the Netherlands eScience Center,
-provided valuable feedback in developing this package.
+mappings grew out of his work. Bart Schilperoort, also at the
+Netherlands eScience Center, provided valuable feedback in developing
+this package.
 
 This work is supported by the U.S. National Science Foundation under
 Award
