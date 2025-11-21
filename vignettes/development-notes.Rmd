@@ -1,0 +1,30 @@
+---
+title: "Development Notes"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Development Notes}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+This document contains notes on the development of the `bmir` package.
+I made choices when designing the package,
+and for future reference I'd like to explain why I made them.
+
+## Using an R6 class
+
+I used an R6 class to express the BMI in R.
+From my reading,
+R6 permits a more natural object-oriented approach when compared to R's S3 or S4 classes.
+While BMI doesn't require object-oriented programming,
+we've found that, in languages that support it, it helps with the design of clean and descriptive mappings.
+
+An R6 class was also used in [eWaterCycle/bmi-r](https://github.com/eWaterCycle/bmi-r),
+which provided inspiration for this version of the R BMI.
