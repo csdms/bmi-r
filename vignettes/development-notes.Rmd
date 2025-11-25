@@ -1,0 +1,78 @@
+---
+title: "Development Notes"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Development Notes}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+I made choices when developing the *bmir* package,
+and for future reference I'd like to explain why I made them.
+
+## R6 class
+
+I used an R6 class to express the BMI in R.
+While BMI doesn't require an object-oriented approach,
+at CSDMS we've found that, in languages that support it,
+it helps with the design of clean and descriptive mappings.
+
+From my reading,
+R6 permits a more natural object-oriented approach than R's S3 or S4 classes.
+An R6 class was also used by Stefan Verhoeven
+in [eWaterCycle/bmi-r](https://github.com/eWaterCycle/bmi-r),
+which provided inspiration for this version of the R BMI.
+
+## Renaming the BMI `initialize` and `finalize` methods
+
+The function names `initialize` and `finalize` are reserved in R
+(see [documentation](https://www.rdocumentation.org/packages/methods/versions/3.6.2/topics/new) for the `new` function).
+
+I followed Stefan's approach
+of renaming these methods to `bmi_initialize` and `bmi_finalize`.
+
+## Signatures of BMI methods
+
+Even though R doesn't support pass-by-reference,
+I wanted to keep the method signatures as close as possible
+to the BMI specification,
+so I included output parameters
+(e.g., `get_grid_shape(grid_id, shape)`).
+
+My plan is, in the implementation of these mappings,
+to include but ignore the output parameters,
+returning the outputs as return values from the R functions.
+
+## Development and packaging with *devtools*
+
+I found it really helpful to use *devtools* to develop this package.
+I followed the approach in the [R Packages](https://r-pkgs.org/) book
+by Hadley Wickham;
+in particular,
+the workflow described in Chapter 1: [The Whole Game](https://r-pkgs.org/whole-game.html).
+
+I also observed that popular R packages
+such as *ggplot2* and *plotly*
+are developed using *devtools*.
+
+## Package name
+
+In choosing the name for this package, 
+I wanted to follow the convention of the BMI packages
+in other languages.
+
+| Language | Package Name |
+|----------|--------------|
+| C        | *bmic*       |
+| C++      | *bmicxx*     |
+| Fortran  | *bmif*       |
+| Python   | *bmipy*      |
+
+So I chose *bmir*.
