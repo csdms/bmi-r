@@ -19,7 +19,7 @@ Install the development version of the BMI R mappings from GitHub:
 
 ``` r
 # install.packages("remotes")
-remotes::install_github("csdms/bmi-r")
+remotes::install_github("csdms/bmi-r", build_vignettes = TRUE)
 ```
 
 If you’ve already cloned the repository locally, you can install the
@@ -57,6 +57,15 @@ the BMI R mappings into the environment.
 
 A complete sample implementation is given in the
 <https://github.com/csdms/bmi-example-r> repository.
+
+## Development notes
+
+Notes on developing the BMI R mappings are provided in a vignette
+included in this package. To view it, run:
+
+``` r
+browseVignettes("bmir")
+```
 
 ## Acknowledgments
 

@@ -29,7 +29,7 @@ R mappings for the CSDMS [Basic Model Interface](https://bmi.csdms.io).
 Install the development version of the BMI R mappings from GitHub:
 ```R
 # install.packages("remotes")
-remotes::install_github("csdms/bmi-r")
+remotes::install_github("csdms/bmi-r", build_vignettes = TRUE)
 ```
 If you've already cloned the repository locally,
 you can install the mappings from R with `remotes::install_local()`.
@@ -63,6 +63,15 @@ then follow the directions above to install the BMI R mappings into the environm
 
 A complete sample implementation is given in the
 https://github.com/csdms/bmi-example-r repository.
+
+## Development notes
+
+Notes on developing the BMI R mappings
+are provided in a vignette included in this package.
+To view it, run:
+```R
+browseVignettes("bmir")
+```
 
 ## Acknowledgments
 
